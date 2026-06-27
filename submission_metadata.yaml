@@ -1,0 +1,36 @@
+# Redrob Hackathon — Submission Metadata Template
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "AI Candidate Discovery Experts"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "aarishar7"
+  email: "aarishar7@gmail.com"   # Used for all organizer communication
+  phone: "+91-XXXXXXXXXX"        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Aarisha R"
+    email: "aarishar7@gmail.com"
+    role: "ML Engineer"          # Optional, e.g. "Team Lead", "Backend", "Data"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/aarishar7/intelligent-candidate-discovery"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://huggingface.co/spaces/aarishar7/redrob-ranker"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of specs.
+
+# ============================================================================
+# Metadata Specs
+# ============================================================================
+model_used: "Gemini 1.5 Flash + Custom Semantic Alignment + Profile Completeness Signals"
+algorithm: "Multi-modal semantic embedding evaluation paired with heuristic signal prioritization matrices."

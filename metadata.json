@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Intelligent Candidate Discovery",
+  "description": "An AI-powered recruiter platform that parses complex job descriptions, contextually ranks candidates, integrates profile signals, and includes an interactive custom candidate playground.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
